@@ -90,7 +90,7 @@ const Main = () => {
             {/* ================= STEP 1 ================= */}
             <Step>
                 <h2 className="text-xl font-semibold text-center">
-                    Well today is...
+                    Well, today is...
                 </h2>
 
                 <div className="h-80 flex justify-center items-center text-black">
@@ -108,7 +108,7 @@ const Main = () => {
                     </calendar-date>
                 </div>
 
-                <p className="text-center">You think I forgot?</p>
+                <p className="text-center">You think I forgot no?</p>
             </Step>
 
 

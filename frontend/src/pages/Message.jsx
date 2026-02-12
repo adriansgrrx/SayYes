@@ -46,7 +46,7 @@ const Message = () => {
         >
 
         {/* Header */}
-            <div id="hbd-text" className="pt-8 sm:pt-12 mt-40">
+            <div id="hbd-text" className="pt-8 sm:pt-12 mt-25">
                 <div className='grid'>
                     <h1 className="text-2xl font-bold text-center">
                         Happy Valentine's <br />Day, Lang! 💌

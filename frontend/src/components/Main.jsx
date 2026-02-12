@@ -55,7 +55,18 @@ const Main = () => {
     `
 
     return (
-        <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-rose-100 via-pink-100 to-red-100">
+        <div
+            className="
+                flex items-center justify-center
+                bg-gradient-to-br from-rose-100 via-pink-100 to-red-100
+                px-4 py-6
+            "
+            style={{
+                minHeight: "100dvh",                     // FIX iOS Safari viewport
+                paddingTop: "env(safe-area-inset-top)",  // notch safe
+                paddingBottom: "env(safe-area-inset-bottom)"
+            }}
+        >
 
         <Stepper
             initialStep={1}

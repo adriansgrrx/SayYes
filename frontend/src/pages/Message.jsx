@@ -35,31 +35,34 @@ const Message = () => {
     }, []);
 
     return (
-        <div className="min-h-screen flex flex-col from-stone-50 via-neutral-50 to-stone-100 bg-amber-50">
+        <div 
+            className="min-h-screen flex flex-col from-stone-50 via-neutral-50 to-stone-100 bg-amber-50"
+        
+            style={{
+                minHeight: "100dvh",                     // FIX iOS Safari viewport
+                paddingTop: "env(safe-area-inset-top)",  // notch safe
+                paddingBottom: "env(safe-area-inset-bottom)"
+            }}
+        >
 
         {/* Header */}
             <div id="hbd-text" className="pt-8 sm:pt-12 mt-15">
                 <div className='grid'>
                     <h1 className="text-2xl font-bold text-center">
-                        Message
+                        Happy Valentine's <br />Day, Lang! 💌
                     </h1>
-                    <h2 className="text-center">
-                        From Toti
-                    </h2>
+
                     {/* Subheading */}
                     <div className="grid gap-4 max-w-xs md:max-w-md lg:max-w-xl xl:max-w-xl mx-auto text-xs text-center opacity-90 mt-8">
                         <p>
-                            For this year, Lang, all I want is for you to be happy. 
-                        </p>
-                        <p>
-                            And for the final part of this website, please open the envelope to see my personal wish and message for your special day. 
+                            At dahil nag-"yes" ka, itong message ko sa'yo 😉:
                         </p>
                     </div>
                 </div>
             </div>
 
         {/* Envelope — CENTERED */}
-        <div className="flex-1 flex items-center justify-center px-4 mb-20">
+        <div className="flex-1 flex items-center justify-center">
             <div
             className="envelope-clickable w-full max-w-md mx-auto animate-fadeIn cursor-pointer"
             style={{ animationDelay: '0.2s' }}

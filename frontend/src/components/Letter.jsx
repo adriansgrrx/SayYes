@@ -12,23 +12,26 @@ const Letter = ({ isActive, onClose }) => {
                 <div className="card-hover w-full max-w-2xl mx-auto">
                     <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-neutral-100">
                         <div className="bg-gradient-to-r from-neutral-50 to-stone-50 sm:p-8 lg:p-10 border-b border-neutral-100">
-                            <h2 className="font-serif text-2xl lg:text-4xl xl:text-4xl text-center text-neutral-800 p-4 mb-2">Happy Birthday,<br />Lang Lang!🌻</h2>
+                            <h2 className="font-serif text-2xl lg:text-4xl xl:text-4xl text-center text-neutral-800 p-4 mb-2">🌻</h2>
                         </div>
                         
                         {/* Card Body */}
                         <div className="p-6 sm:p-8 lg:p-10 space-y-6 max-h-[70vh] overflow-y-auto">
                             <div id="hbd-text" className="text-xs md:text-sm lg:text-sm xl:text-sm prose prose-neutral max-w-none">
-                                <p className=" text-neutral-600 leading-relaxed">
+                                <p className=" text-neutral-600 leading-relaxed mb-4">
                                     Dear Lang/Lang-Lang/Clyde/Clyde Vlitz,
                                 </p>
+                                <i className=" text-neutral-600 leading-relaxed mt-4">
+                                    Bago ang lahat, yis, ni-reuse ko itong letter haha cuz why not?   
+                                </i>
                                 <p className=" text-neutral-600 leading-relaxed mt-4">
-                                    On this special day, I want you to be happy and thankful—cuz, why not? It's another year, and you are 23 years old now. Despite all the challenges you faced last year, I wish this year make you stronger, happier, and full of beautiful moments.    
+                                    Kidding aside, this Heart's Day, I want us to go as planned. While writing this I don't really know if kakayanin ba ng bulsa but let's go haha.
                                 </p>
                                 <p className=" text-neutral-600 leading-relaxed mt-4">
-                                    I wish that all your struggles pay off—board exam reviews, personal problems, social life, and everything else you’ve worked hard for. This year, I hope you achieve what you’ve wished for in the past years: to become an Electronics Engineer. I also wish for us to become fitter this year, to take better care of our health and be more active. May you also have abundance in finances and in all the things that bring you happiness.
+                                    Well, hindi naman kailangan ng Valentine's Day, mahal naman kita araw-araw. But, I just want to take this opportunity to show you that I love you so muchhhh.
                                 </p>
                                 <p className=" text-neutral-600 leading-relaxed mt-4">
-                                    Lang, I just want to thank you for being the best person in my life. Salamat sa pag-intindi at pagsalo palagi sa akin. Again, may your day be filled with moments as beautiful as you are, and may the year ahead bring you endless reasons to smile. Nandito lang ako palagi.
+                                    Thank you for giving me a chance to share countless of fun moments with you. And laging mong tatandaan na nandito lang ako palagi. I love you , Lang!
                                 </p>
                             </div>
 
@@ -36,10 +39,10 @@ const Letter = ({ isActive, onClose }) => {
                             {/* Closing */}
                             <div id="hbd-text" className='text-end mt-10'>
                                 <p className="text-sm text-neutral-700 italic">
-                                    With warmest wishes,
+                                    Nagmamahal,
                                 </p>
                                 <p className="text-md text-neutral-700 italic">
-                                    Toti/Adrian
+                                    Adrian
                                 </p>
                             </div>
                         </div>

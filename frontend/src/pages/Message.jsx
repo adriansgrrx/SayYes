@@ -46,7 +46,7 @@ const Message = () => {
         >
 
         {/* Header */}
-            <div id="hbd-text" className="pt-8 sm:pt-12 mt-15">
+            <div id="hbd-text" className="pt-8 sm:pt-12 mt-40">
                 <div className='grid'>
                     <h1 className="text-2xl font-bold text-center">
                         Happy Valentine's <br />Day, Lang! 💌
@@ -62,7 +62,7 @@ const Message = () => {
             </div>
 
         {/* Envelope — CENTERED */}
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center justify-center px-6 mb-20">
             <div
             className="envelope-clickable w-full max-w-md mx-auto animate-fadeIn cursor-pointer"
             style={{ animationDelay: '0.2s' }}

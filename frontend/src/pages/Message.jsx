@@ -55,7 +55,7 @@ const Message = () => {
                     {/* Subheading */}
                     <div className="grid gap-4 max-w-xs md:max-w-md lg:max-w-xl xl:max-w-xl mx-auto text-xs text-center opacity-90 mt-8">
                         <p>
-                            At dahil nag-"yes" ka, itong message ko sa'yo 😉:
+                            At dahil nag-"yes" ka, ito ang message ko sa'yo 😉:
                         </p>
                     </div>
                 </div>
